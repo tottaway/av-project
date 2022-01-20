@@ -1,0 +1,10 @@
+.ignore
+.root
+.clang-format
+
+build
+data
+extern
+logs
+outputs
+
