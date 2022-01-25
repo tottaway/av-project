@@ -12,7 +12,7 @@ set(SOURCES
   src/main.cpp
 
   src/agents/Simple2DAgent.cpp
-  
+
   src/controllers/PerfectController.cpp
 
   src/environments/Simple2DEnv.cpp
