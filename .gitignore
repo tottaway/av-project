@@ -1,6 +1,7 @@
 .ignore
 .root
 .clang-format
+compile_commands.json
 
 build
 data

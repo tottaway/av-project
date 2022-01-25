@@ -1,5 +1,7 @@
 #include <iostream>
+#include "av_project/environments/Simple2DEnv.h"
 
 int main(int argc, char *argv[]) {
-  std::cout << "Hello World!" << std::endl;
+  auto env = AV::Simple2DEnv::create();
+  env->run();
 }

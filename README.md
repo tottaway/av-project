@@ -36,7 +36,8 @@ Pseudo code for agent time step:
 ```
 sensor_results = []
 for each sensor:
-  sensor_results.appens(env.sense(sensor, loc, t))
+  // TODO: figure out how exactly sensor's state stays up to date
+  sensor_results.appens(sensor.sense(env))
 
 state_estimate = orientor.orient(sensor_results)
 goal_state = planner.plan(state_estimate)

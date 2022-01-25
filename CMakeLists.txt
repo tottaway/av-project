@@ -10,6 +10,19 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra")
 
 set(SOURCES 
   src/main.cpp
+
+  src/agents/Simple2DAgent.cpp
+  
+  src/controllers/PerfectController.cpp
+
+  src/environments/Simple2DEnv.cpp
+
+  src/orienters/PassThroughOrienter.cpp
+
+  src/planners/GoForward2D.cpp
+
+  src/sensors/PerfectSensor.cpp
+  src/sensors/SelfSensor.cpp
 )
 
 include_directories(./include)
